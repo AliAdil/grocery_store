@@ -24,7 +24,7 @@ class GroceryStoreHome extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              /* Positioned(
+              Positioned(
                 left: 0,
                 right: 0,
                 top: 0,
@@ -32,7 +32,7 @@ class GroceryStoreHome extends StatelessWidget {
                 child: Container(
                   color: Colors.white,
                 ),
-              ),*/
+              ),
             ],
           ))
         ],
