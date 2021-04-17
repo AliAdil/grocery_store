@@ -15,24 +15,33 @@ class GroceryStoreHome extends StatelessWidget {
           Expanded(
               child: Stack(
             children: [
-              Positioned(
-                left: 0,
-                right: 0,
-                top: -_cartBarHeight,
-                height: size.height - kToolbarHeight,
-                child: Container(
-                  color: Colors.white,
+              Center(
+                child: ElevatedButton(
+                  child: Text('Woolha.com'),
+                  onPressed: () {
+                    print('Pressed');
+                  },
                 ),
               ),
-              Positioned(
-                left: 0,
-                right: 0,
-                top: 0,
-                height: size.height - kToolbarHeight,
-                child: Container(
-                  color: Colors.white,
-                ),
-              ),
+
+              // Positioned(
+              //   left: 0,
+              //   right: 0,
+              //   top: -_cartBarHeight,
+              //   height: size.height - kToolbarHeight,
+              //   child: Container(
+              //     color: Colors.white,
+              //   ),
+              // ),
+              // Positioned(
+              //   left: 0,
+              //   right: 0,
+              //   top: 0,
+              //   height: size.height - kToolbarHeight,
+              //   child: Container(
+              //     color: Colors.white,
+              //   ),
+              // ),
             ],
           ))
         ],
