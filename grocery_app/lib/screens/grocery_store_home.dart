@@ -27,19 +27,23 @@ class GroceryStoreHome extends StatelessWidget {
               Positioned(
                 left: 0,
                 right: 0,
-                top: -_cartBarHeight,
-                height: size.height - kToolbarHeight,
+                top: 0,
+                // height: size.height - kToolbarHeight,
+                height: 40,
+
                 child: Container(
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
               Positioned(
                 left: 0,
                 right: 0,
-                top: 0,
-                height: size.height - kToolbarHeight,
+                top: 50,
+                // height: size.height - kToolbarHeight,
+                height: 40,
+
                 child: Container(
-                  color: Colors.white,
+                  color: Colors.blue,
                 ),
               ),
             ],
