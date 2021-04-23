@@ -15,15 +15,14 @@ class GroceryStoreHome extends StatelessWidget {
           Expanded(
               child: Stack(
             children: [
-              // Center(
-              //   child: ElevatedButton(
-              //     child: Text('Woolha.com'),
-              //     onPressed: () {
-              //       print('Pressed');
-              //     },
-              //   ),
-              // ),
-
+              Center(
+                child: ElevatedButton(
+                  child: Text('Woolha.com'),
+                  onPressed: () {
+                    print('Pressed');
+                  },
+                ),
+              ),
               Positioned(
                 left: 0,
                 right: 0,
